@@ -7,11 +7,10 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardview01"
-        app:cardBackgroundColor="#EBF4DF"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="5dp"
-        app:cardCornerRadius="18dp"
+        app:cardCornerRadius="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -42,14 +41,14 @@
                 android:layout_height="wrap_content"
                 android:text="Headlines"
                 android:textSize="15dp"
-                android:textColor="@color/black" />
+                android:textColor="#474747" />
 
 
             <TextView
                 android:id="@+id/itemcontext"
                 android:layout_width="match_parent"
                 android:textSize="15dp"
-                android:textColor="@color/black"
+                android:textColor="#252525"
                 android:layout_height="wrap_content"
                 android:padding="5dp"
                 android:text="Description"/>
@@ -75,21 +74,23 @@
                 >
 
                 <TextView
-                    android:layout_marginLeft="10dp"
-                    android:textStyle="bold"
                     android:id="@+id/itemauthor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Publisher" />
+                    android:layout_marginLeft="15dp"
+                    android:text="Publisher"
+                    android:textSize="11dp"
+                    android:textStyle="bold" />
 
 
                 <TextView
-                    android:layout_marginLeft="30dp"
+                    android:layout_marginLeft="20dp"
                     android:id="@+id/itemPublishat"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
                     android:text="12/2/2023"
+                    android:textSize="11dp"
                     android:layout_marginBottom="10dp"
                     />
 

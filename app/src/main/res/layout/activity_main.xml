@@ -7,11 +7,10 @@
     tools:context=".MainActivity">
 
     <com.google.android.material.tabs.TabLayout
-        android:background="#989A9A"
-
+        android:background="#FF9696"
         android:id="@+id/tablayout01"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="60dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"

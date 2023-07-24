@@ -57,18 +57,16 @@ public class Adapterone extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0) {
-
             return "Business";
-
         } else if (position == 1) {
             return "Trending";
         } else if (position == 2) {
-            return "entertainment";
+            return "Entertainment";
         } else if (position == 3) {
-            return "technology";
+            return "Tech";
         } else if (position == 4) {
-            return "sports";
-        } else return "health";
+            return "Sports";
+        } else return "Health";
     }
 
 
