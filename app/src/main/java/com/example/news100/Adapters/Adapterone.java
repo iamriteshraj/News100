@@ -32,15 +32,15 @@ public class Adapterone extends FragmentPagerAdapter {
             return new F_entertainment();
 
 
+//        } else if (position == 2) {
+//
+//            return new F_Trending();
+
         } else if (position == 2) {
-
-            return new F_Trending();
-
-        } else if (position == 3) {
 
             return new F_technology();
 
-        } else if (position == 4) {
+        } else if (position == 3) {
 
             return new F_sports();
 
@@ -49,7 +49,7 @@ public class Adapterone extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 5;
+        return 4;
     }
 
 
@@ -61,11 +61,11 @@ public class Adapterone extends FragmentPagerAdapter {
         } else if (position == 1) {
             return "Trending";
         } else if (position == 2) {
-            return "Entertainment";
-        } else if (position == 3) {
             return "Tech";
-        } else if (position == 4) {
+        } else if (position == 3) {
             return "Sports";
+//        } else if (position == 4) {
+//            return "";
         } else return "Health";
     }
 
